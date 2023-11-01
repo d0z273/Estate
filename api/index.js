@@ -5,7 +5,7 @@ import userRouter from './routes/userRoute.js';
 import authRouter from './routes/authRoute.js';
 import listingRoute from './routes/listingRoute.js';
 import cookieParser from 'cookie-parser';
-import Path from 'path';
+import path from 'path';
 dotenv.config();
 
 mongoose.connect(process.env.MONGO_URI);
